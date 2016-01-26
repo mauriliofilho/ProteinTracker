@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteinTrackerAPI", "ProteinTrackerAPI\ProteinTrackerAPI.csproj", "{E1E04FD7-E5F9-4462-A29D-E33B39BD7D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteinTrackerDroid", "ProteiTrackerDroid\ProteinTrackerDroid.csproj", "{AA96D80B-119E-4318-B861-04197BC4F611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1E04FD7-E5F9-4462-A29D-E33B39BD7D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E04FD7-E5F9-4462-A29D-E33B39BD7D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E04FD7-E5F9-4462-A29D-E33B39BD7D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E04FD7-E5F9-4462-A29D-E33B39BD7D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA96D80B-119E-4318-B861-04197BC4F611}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
