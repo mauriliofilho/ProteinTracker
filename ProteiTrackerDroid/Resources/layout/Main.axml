@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="10dip"
-    android:background="@android:color/holo_orange_light">
+    android:theme="@android:style/Theme.Leanback.FormWizard">
     <TextView
         android:text="Select User"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -17,11 +17,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/usersSpinner"
         android:layout_marginRight="0.0dp"
-        android:layout_gravity="center"/>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20.0dp"
-        android:id="@+id/space1" />
+        android:layout_gravity="center" />
     <TextView
         android:text="Add User"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -70,7 +66,8 @@
             android:id="@+id/goalTextView2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dip" />
+            android:layout_marginLeft="10dip"
+            android:numeric="integer" />
     </LinearLayout>
     <Button
         android:text="Add"
@@ -78,10 +75,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/addNewUerButton"
         android:layout_gravity="center" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20.0dp"
-        android:id="@+id/space1" />
     <TextView
         android:text="Add Protein"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -116,10 +109,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/addProteinButton"
         android:layout_gravity="center" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20.0dp"
-        android:id="@+id/space1" />
     <TextView
         android:text="Stats"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -132,38 +121,42 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout4">
         <TextView
-            android:text="Goal      :"
+            android:text="Goal :"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="63.5dp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView8" />
+            android:layout_width="86.5dp"
+            android:layout_height="41.0dp"
+            android:id="@+id/textView8"
+            android:textSize="50px"
+            android:textStyle="bold" />
         <TextView
             android:text="0"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/usersGoalTextView" />
+            android:id="@+id/usersGoalTextView"
+            android:textSize="60px"
+            android:textStyle="italic" />
     </LinearLayout>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="11.0dp"
-        android:id="@+id/space1" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout4">
         <TextView
-            android:text="Total      :"
+            android:text="Total:"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="65.0dp"
+            android:layout_width="89.5dp"
             android:layout_height="match_parent"
-            android:id="@+id/textView10" />
+            android:id="@+id/textView10"
+            android:textSize="50px"
+            android:textStyle="bold" />
         <TextView
             android:text="0"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/usersTotalTextView" />
+            android:id="@+id/usersTotalTextView"
+            android:textSize="60px"
+            android:textStyle="italic" />
     </LinearLayout>
 </LinearLayout>

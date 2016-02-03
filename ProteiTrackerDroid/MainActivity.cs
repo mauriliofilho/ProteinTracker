@@ -10,7 +10,7 @@ using System;
 
 namespace ProteinTrackerDroid
 {
-    [Activity(Label = "Protein Tracker", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Protein Tracker App", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         private JsonServiceClient client;
@@ -23,7 +23,7 @@ namespace ProteinTrackerDroid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            client = new JsonServiceClient("http://172.16.57.130:18372/api");
+            client = new JsonServiceClient("http://vmredisserver.cloudapp.net/api");
 
             PopulateSelectUsers();
 

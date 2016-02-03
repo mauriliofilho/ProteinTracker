@@ -224,6 +224,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\VMRedisServer - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\VMRedisServer - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="README.txt" />
     <Content Include="Scripts\jquery-2.1.4.js" />
@@ -282,8 +284,7 @@
           <IISUrl>http://localhost:18372/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>http://mobileproteintracker.azurewebsites.net</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
