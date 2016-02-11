@@ -87,11 +87,14 @@ namespace ProteinTrackerDroid
 			// aapt resource value: 0x7f050005
 			public const int nameTextView2 = 2131034117;
 			
+			// aapt resource value: 0x7f050013
+			public const int space1 = 2131034131;
+			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;
 			
-			// aapt resource value: 0x7f050013
-			public const int textView10 = 2131034131;
+			// aapt resource value: 0x7f050014
+			public const int textView10 = 2131034132;
 			
 			// aapt resource value: 0x7f050002
 			public const int textView2 = 2131034114;
@@ -120,8 +123,8 @@ namespace ProteinTrackerDroid
 			// aapt resource value: 0x7f050001
 			public const int usersSpinner = 2131034113;
 			
-			// aapt resource value: 0x7f050014
-			public const int usersTotalTextView = 2131034132;
+			// aapt resource value: 0x7f050015
+			public const int usersTotalTextView = 2131034133;
 			
 			static Id()
 			{
