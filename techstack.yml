@@ -1,7 +1,8 @@
 repo_name: mauriliofilho/ProteinTracker
 report_id: f164608a6f25ff193723c727e806c08f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-30T15:50:34+00:00'
+timestamp: '2024-01-05T08:31:36+00:00'
 requested_by: mauriliofilho
 provider: github
 branch: master
@@ -17,7 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteiTrackerDroid/ProteinTrackerDroid.csproj
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteiTrackerDroid/ProteinTrackerDroid.csproj
   detection_source: ProteiTrackerDroid/ProteinTrackerDroid.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -39,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -49,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -60,6 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -71,6 +76,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -80,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -92,6 +99,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTracker.sln
   detection_source: ProteinTracker.sln
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -105,7 +113,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12905/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteiTrackerDroid/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteiTrackerDroid/packages.config
   detection_source: ProteiTrackerDroid/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -119,7 +127,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13218/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -140,7 +148,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13169/default_b4059c3863f54504d1a911991b5fe93c60e9e43e.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -155,7 +163,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13908/default_1dc9a9444fe68b18bef2b0e836067caced79799a.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -169,7 +177,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13196/default_44258eb565a346d4baf5243c0df2a219253fec1a.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
@@ -183,7 +191,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13010/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
-  detection_source_url: github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
+  detection_source_url: https://github.com/mauriliofilho/ProteinTracker/blob/master/ProteinTrackerAPI/packages.config
   detection_source: ProteinTrackerAPI/packages.config
   last_updated_by: Maurilio Filho
   last_updated_on: 2016-01-26 12:43:54.000000000 Z
